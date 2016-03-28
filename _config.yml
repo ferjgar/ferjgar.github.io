@@ -29,3 +29,6 @@ github:
 # Gems
 gems:
   - jekyll-paginate
+  - jemoji
+  - jekyll-feed
+  - jekyll-sitemap
