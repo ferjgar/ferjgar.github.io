@@ -1,6 +1,7 @@
 permalink:         /:title
 
 paginate:          2
+paginate_path:     /pag/:num
 
 timezone:          Europe/Madrid
 
