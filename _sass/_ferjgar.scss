@@ -1,18 +1,26 @@
 // ferjgar.rocks awesome styles!
 
+$font-title: "Belgrano", serif;
+$font-code: "Inconsolata", monospace;
+$link-color: #b4e7f8;
+
 // borrowed from wired.com
 @mixin underlined-link {
   a {
     text-decoration: none;
-    border-bottom: 3px solid #b4e7f8;
-    box-shadow: inset 0 -4px 0 #b4e7f8;
+    border-bottom: 3px solid $link-color;
+    box-shadow: inset 0 -4px 0 $link-color;
     color: inherit;
 
     &:hover, &:focus, &:active {
-      background: #b4e7f8;
+      background: $link-color;
       color: inherit;
     }
   }
+}
+
+code, pre {
+  font-family: $font-code;  
 }
 
 .masthead {
@@ -29,6 +37,15 @@
 .footer {
   @include underlined-link;
   text-align: right;
+  font-family: $font-title;
+
+  a {
+    padding: 15px;
+  }
+}
+
+.post-title {
+  font-family: $font-title;
 }
 
 .post-content {
