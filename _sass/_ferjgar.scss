@@ -2,17 +2,13 @@
 
 .masthead {
   margin: 0;
-  display: table;
-  width: 100%;
 
   img {
     margin: 0;
     height: 100px;
   }
+}
 
-  span {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: right;
-  }
+.footer {
+  text-align: right;
 }
