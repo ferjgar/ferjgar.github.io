@@ -13,6 +13,7 @@ tags:
   - facebook
   - windows live
   - yahoo
+  - test
 ---
 <p style="text-align: center;">
   <img height="150" width="640" border="0" alt="El bonito single sign-on" src="/img/post/singlesignon.jpg" title="El bonito single sign-on" />
@@ -39,7 +40,7 @@ La [documentación para desarrolladores de Facebook](http://developers.facebook.
       <img src="/img/post/apilog_facebook_campos.png" alt="Campos mínimos para rellenar en la aplicación de Facebook" title="Campos mínimos para rellenar en la aplicación de Facebook" width="701" height="244" />
     </p>
   </li>
-  
+
   <li>
     Nos bajamos la <a href="http://svn.facebook.com/svnroot/platform/clients/packages/facebook-platform.tar.gz">librería cliente de PHP</a>.
   </li>
@@ -71,7 +72,7 @@ Otra API con integración _no traumática_ gracias a la tecnología [BBAuth de Y
       <img src="/img/post/apilog_yahoo_campos.gif" alt="Campos mínimos para rellenar en la aplicación de Yahoo" title="Campos mínimos para rellenar en la aplicación de Yahoo" width="665" height="586" />
     </p>
   </li>
-  
+
   <li>
     Nos pedirán confirmar el dominio subiendo un fichero determinado a nuestra web.
   </li>
@@ -86,10 +87,10 @@ Otra API con integración _no traumática_ gracias a la tecnología [BBAuth de Y
 Resumiendo de nuevo, tenemos la aplicación creada, apuntadas las dos keys que necesitamos y la clase para comunicarnos con Yahoo (usaremos el fichero _ybrowserauth.class.php4_ o _ybrowserauth.class.php5_ dependiendo de nuestra versión de PHP). El código final quedará así:
 
 [cc lang=&#8221;php&#8221;]
-  
+
 <?php
 
 	// datos de la aplicación que se nos facilitan cuando la registramos en Yahoo
 	define('APPID','000000000000');
-	define('SECRET','111111111111');	
+	define('SECRET','111111111111');
 </p>
