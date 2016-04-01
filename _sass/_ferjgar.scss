@@ -34,9 +34,3 @@
 .post-content {
   @include underlined-link;
 }
-
-.related-posts {
-  li {
-    @include underlined-link;
-  }
-}
