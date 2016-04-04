@@ -20,7 +20,7 @@ $link-color: #b4e7f8;
 }
 
 code, pre {
-  font-family: $font-code;  
+  font-family: $font-code;
 }
 
 .masthead {
@@ -50,4 +50,12 @@ code, pre {
 
 .post-content {
   @include underlined-link;
+}
+
+a.pagination-item {
+  color: $body-color;
+
+  &:hover {
+    background-color: $link-color;
+  }
 }
