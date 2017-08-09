@@ -1,13 +1,17 @@
-permalink:         /:title
+repository: ferjgar/ferjgar.github.io
+# crazy XD https://github.com/github/pages-gem/issues/399
+github: [metadata]
 
-paginate:          2
-paginate_path:     /pag/:num
+permalink: /:title
 
-timezone:          Europe/Madrid
+paginate: 2
+paginate_path: /pag/:num
+
+timezone: Europe/Madrid
 
 sass:
-  sass_dir:        _sass
-  style:           :compressed
+  sass_dir: _sass
+  style: :compressed
 
 gems:
   - jekyll-paginate
