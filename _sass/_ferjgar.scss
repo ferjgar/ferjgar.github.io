@@ -19,6 +19,19 @@ $link-color: #b4e7f8;
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 40rem;
+}
+
+// show horizontal scroll instead of a ugly super large line of code
+.highlighter-rouge > pre {
+  overflow-x: auto;
+}
+
 code, pre {
   font-family: $font-code;
 }
