@@ -2,12 +2,12 @@
 layout: post
 tags: java
 ---
-Que buen título. Digamos que estás programando con `java`, estas creando tu bonita __API REST__, y llega un momento
+Que buen título. Digamos que estás programando con `java`, estás creando tu bonita __API REST__, y llega un momento
 en el que quieres testear un endpoint. Ese endpoint es `POST/PUT`, y espera recibir, por ejemplo, la duración en minutos
 de una película.
 
 Dependiendo del framework usado (en este caso [Dropwizard](http://www.dropwizard.io/)) e historias varias,
-el codigo variará muchísimo, pero pongamos que tenemos algo así:
+el código variará muchísimo, pero pongamos que tenemos algo así:
 ```java
 @PUT
 @Timed
