@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: git
+redirect_from: /desarrollo/utilizar-github-for-windows-con-bitbucket
 ---
 O GitHub for Mac, aunque aquí haya más alternativas como [Tower](http://www.git-tower.com) (brutal) o [SourceTree](http://www.sourcetreeapp.com), pero el caso es que la GUI de GitHub no limita su uso a sus repositorios.
 

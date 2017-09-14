@@ -18,3 +18,4 @@ gems:
   - jemoji
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
