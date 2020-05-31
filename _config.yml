@@ -1,17 +1,16 @@
-repository: ferjgar/ferjgar.github.io
-# crazy XD https://github.com/github/pages-gem/issues/399
-github: [metadata]
-
-permalink: /:title
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
 
 paginate: 2
 paginate_path: /pag/:num
 
-timezone: Europe/Madrid
-
-sass:
-  sass_dir: _sass
-  style: :compressed
+permalink: /:title
 
 plugins:
   - jekyll-paginate
@@ -19,3 +18,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
+
+repository: ferjgar/ferjgar.github.io
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+timezone: Europe/Madrid
