@@ -25,11 +25,27 @@
 .container {
   max-width: 50rem;
 
+  .masthead { 
+    margin: 0;
+    text-align: center;
+    
+    img {
+      display: inline;
+    }
+  }
+  
   .post-title, .pagination, .footer {
     font-family: var(--ferjgar-font-family-title);
   }
 
   .post-content {
     @include underlined-link;
+  }
+
+  code {
+    background-color: var(--code-bg);
+    border-radius: var(--border-radius);  
+    padding: .25em .5em;
+    color: var(--gray-900);
   }
 }
