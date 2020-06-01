@@ -28,7 +28,7 @@
   .masthead { 
     margin: 0;
     text-align: center;
-    
+
     img {
       display: inline;
     }
@@ -47,5 +47,11 @@
     border-radius: var(--border-radius);  
     padding: .25em .5em;
     color: var(--gray-900);
+  }
+
+  .highlight {
+    &.code {
+      padding: 0;
+    }
   }
 }
